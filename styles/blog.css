@@ -156,3 +156,20 @@ form{
     font-weight: 700;
 
 }
+.destination{
+    background: rgb(243, 235, 235);
+}
+
+.destination-card{
+    background: #fff;
+    margin: 30px 10px;
+    padding-bottom: 30px;
+    border: 1px solid #ccc;
+    
+
+}
+
+.destination-card img{
+    width: 100%;
+    height: 300px;
+}
