@@ -38,7 +38,7 @@ header{
     font-weight: 700;
 }
 .nav-list{
-    display: none;
+    display: none; */
 }
 .menu-icon{
     font-size: 24px;
@@ -133,4 +133,26 @@ form{
     font-weight: 600;
     margin-bottom: 30px;
     
+}
+
+.services .row{
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)) ;
+    gap: 20px;
+
+}
+
+.services .row .col{
+    background: linear-gradient(to top, #fafafa, #c8f3d7);
+    padding: 40px;
+    text-align: center;
+    margin: 30px 10px;
+}
+.services .row .col h2 {
+    font-size: 25px;
+    margin: 20px;
+    font-weight: 700;
+
 }
