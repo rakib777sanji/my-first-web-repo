@@ -190,3 +190,37 @@ form{
     padding: 2px 8px;
     font-weight: 400;
 }
+footer{
+    width: 100%;
+    padding: 15px 0;
+    background: rgb(8, 61, 8);
+}
+footer p{
+    text-align: center;
+    color: gray;
+}
+@media only screen and (min-width: 768px) {
+    .nav-list{
+        display: block;
+    }
+        .menu-icon{
+            display: none;
+        }
+        .hero-section .content_wrapper{
+            top: 40%;
+        }
+        .content_wrapper h1{
+            font-size: 55px;
+        }
+        .content_wrapper p{
+            font-size: 25px;
+            margin: 10px 0;  
+        }
+        form{
+            justify-content: center;
+        }
+        form .search-item input{
+            height: 40px;
+        }
+    }
+    
