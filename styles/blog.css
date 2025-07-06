@@ -37,3 +37,13 @@ header{
     font-size: 15px;
     font-weight: 700;
 }
+.nav-list{
+    display: none;
+}
+.menu-icon{
+    font-size: 24px;
+    font-weight: 700;
+}
+.logo{
+    font-size: 24px;
+}
