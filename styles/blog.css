@@ -47,3 +47,25 @@ header{
 .logo{
     font-size: 24px;
 }
+.hero-section .content_wrapper{
+    position: absolute;
+    width: 100%;
+    top: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+.content_wrapper h1{
+    font-size: 25px;
+    font-weight: 700;
+}
+form{
+    position: absolute;
+    bottom: 0;
+    background: linear-gradient(to right, rgba(255, 255, 0, 0.756), rgba(0, 0, 255, 0.504));
+    width: 100%;
+}
