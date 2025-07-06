@@ -75,3 +75,43 @@ form{
     justify-content: left;
     padding: 30px;
 }
+.search-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.search-item div{
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+.search-item input{
+    height: 30px;
+    width: 100%;
+    padding: 0 20px;
+    border: 0;
+    outline: 0;
+    color: rgb(73, 78, 82);
+}
+.search_btn{
+    height: 50px;
+    padding: 0 46px;
+    border-radius: 30px;
+    border: 0;
+    outline: 0;
+    background: #31124b;
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-top: 30px;
+    cursor: pointer;
+
+
+
+}
